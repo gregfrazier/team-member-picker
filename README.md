@@ -4,6 +4,7 @@ Team member picker, useful for stand-up. Low-res smash style.
 ![Example](sample.png)
 
 ## Usage
+- Open file in browser. Since it's self-contained, it can be opened locally or hosted somewhere without CORS issues.
 - Create a roster file (see roster creation below) as a template
 - Choose the file in the file picker to install
     - Uses local cache within the browser. It retains after the session is over, but is unique to the name of the file in your OS or host (in most browsers.)
@@ -68,7 +69,7 @@ The built in avatars are for example only, you can use them or better yet, suppl
     "atlas": "data:image/jpeg;base64,iVBORw0KGg..."
 }
 ```
-- Only 66 avatars are supported. To add more, see next section.
+- Only 66 avatars are supported. To add more/less, see next section.
 
 ### Non-standard size avatars
 For avatar's that are not 60x60, they must include details to scale the images. Also if you want more than 66 addressable avatars you need to supply this info.
