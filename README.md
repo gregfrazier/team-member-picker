@@ -89,13 +89,13 @@ For avatar's that are not 60x60, they must include details to scale the images. 
     ],
     "atlas": "data:image/jpeg;base64,iVBORw0KGg...",
     "avatarDetails": {
-        small: {
-            w: 60, h: 60, scale: 2.4
+        "small": {
+            "w": 60, "h": 60, "scale": 2.4
         },
-        large: {
-            w: 80, h: 80
+        "large": {
+            "w": 80, "h": 80
         },
-        num: 66
+        "num": 66
     }
 }
 ```
