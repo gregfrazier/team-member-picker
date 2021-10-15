@@ -1,7 +1,7 @@
 # Team Member Rando Picker
 Team member picker, useful for stand-up. Low-res smash style.
 
-![Example](sample.png)
+![Example](anim.gif)
 
 ## Usage
 - Open file in browser. Since it's self-contained, it can be opened locally or hosted somewhere without CORS issues.
@@ -14,7 +14,14 @@ Team member picker, useful for stand-up. Low-res smash style.
 - Press "Space" again to restart it.
 - Click with the mouse on an avatar to disable/enable the avatar.
     - This is useful for when team members are not present, you can deactivate them immediately.
+- Press `ESC` or `` ` `` key to open menu.
 - Refresh to reload/reset the picker.
+
+## Try it
+Download `roster-test.json`, modify if desired and try it here:   
+https://gregfrazier.github.io/team-member-picker/team-picker.html
+
+> **Notice**: Files are not uploaded, but rather read locally by your browser and saved to your local storage cache. Only you or others using your computer will be able to view your rosters.
 
 ## Roster file
 The format is json, you can either use the built-in icons or supply your own.
@@ -134,8 +141,6 @@ The grid size is set to fit 12 per row at 25x25. This can be changed by setting 
 In the above example, this means that if you have a list of 10 team members, you will have two rows of 5 in the member selection display.
 
 ## Known Issues
-1. Scaling of the window is sketchy. 
-    - The addition of the roster loader was a last minute hack and needs work.
 1. It will crash if you keep pressing space bar after everyone is picked.
 1. The low resolution has the potential to make your eyes bleed.
 1. Doesn't work on mobile or any device lacking a keyboard.

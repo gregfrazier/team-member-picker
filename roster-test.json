@@ -1,0 +1,15 @@
+{
+    "teamName": "My Team",
+    "roster": [
+        { 
+            "name": "Celebrimbor", 
+            "img": 0 
+        },{
+            "name": "Earendil",
+            "img": 1
+        },{
+            "name": "Elwing",
+            "img": 2
+        }
+    ]
+}
